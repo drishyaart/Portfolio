@@ -1,34 +1,114 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: 40px auto;
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
   line-height: 1.6;
-  color: #222;
 }
 
-header {
-  margin-bottom: 40px;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  margin-top: 40px;
+/* Top bar (journal header style) */
+.topbar {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.project {
+.brand h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.brand p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Navigation */
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  padding: 60px 40px;
+  max-width: 900px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+.section {
+  padding: 40px;
+}
+
+.section.alt {
+  background: #f7f7f7;
+}
+
+.section h3 {
+  font-size: 18px;
+  border-left: 3px solid #333;
+  padding-left: 10px;
   margin-bottom: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: #0077cc;
+/* Grid like journal cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-a:hover {
-  text-decoration: underline;
+/* Cards */
+.card {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  background: #fff;
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 11px;
+  padding: 3px 8px;
+  background: #eee;
+}
+
+/* Focus list */
+.focus {
+  list-style: none;
+  padding: 0;
+}
+
+.focus li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eaeaea;
+  max-width: 600px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+  color: #777;
+  border-top: 1px solid #eee;
 }
