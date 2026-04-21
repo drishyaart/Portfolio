@@ -4,7 +4,13 @@ body {
   color: #1a1a1a;
   margin: 0;
 }
+ {
+  background: red;
+}
 
+.container {
+  background: blue;
+}
 /* Top bar (journal header style) */
 .topbar {
    width: 100vw;
