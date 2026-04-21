@@ -6,6 +6,10 @@ margin: 0;
   line-height: 1.6;
 }
 
+{
+  background: #f0f0f0;
+}
+
 /* Top bar (journal header style) */
 .topbar {
    width: 100vw;
